@@ -1,3 +1,5 @@
+[日本語](./README.md) | [English](./README.en.md)
+
 # Introduction to the TENKI Project
 
 ## Project Purpose
