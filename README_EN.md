@@ -70,7 +70,7 @@ This data is then transmitted to the Home Station to be processed and presented 
 For the interior of the house or apartment, the Home Station's sensors measure the following parameters:
 
 * **CO2 Concentration (unit: ppm)**: Measured by the SCD40 sensor (to monitor air quality and know when to ventilate).
-* **Room Temperature (unit: °C)**: Measured by the DHT22 sensor (or directly from the SCD40 sensor).
-* **Indoor Humidity (unit: %)**: Measured by the DHT22 sensor (or directly from the SCD40 sensor).
+* **Room Temperature (unit: °C)**: Measured by the SCD40 sensor.
+* **Indoor Humidity (unit: %)**: Measured by the SCD40 sensor.
 
 Based on this raw data, the Home Station performs background analysis and calculations before communicating results to the user. It verifies data consistency and historical records, processing everything according to its programmed logic. Upon receiving readings from the Mobile Beacon, it cross-checks them against its own measurements to confirm consistency, runs calculations and analysis, and can then issue weather forecasts and alerts.
